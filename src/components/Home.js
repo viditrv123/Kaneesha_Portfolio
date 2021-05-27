@@ -335,7 +335,7 @@ const Home=()=>{
             <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>IGI Global, 2021 <br /><br /><br /><br /><br /></span>
             </Card.Text>
             <div style={{"display":"inline-block"}}>
-            <Button variant="primary" style={{"marginInline":"35px"}} href={Publication1} download><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Download</span></Button>
+            <Button variant="primary" style={{"marginInline":"35px"}} href={Publication2} download><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Download</span></Button>
             
             <Button variant="primary" href="https://www.igi-global.com/submission/book-project-chapters/?projectid=03dcf765-2e75-4bf4-9089-305370caa331"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Link</span></Button>
             </div>
