@@ -14,39 +14,42 @@ const P1=()=>{
         <Navbar style={{"backgroundColor":"#B37BA4"}} expand="lg" sticky="top" >
         
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto" style={{"margin":"0 auto"}}>
         <Nav.Link href="/"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Home</span></Nav.Link>
         <Nav.Link href="/#Education"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Education</span></Nav.Link>
         <Nav.Link href="/#Skills"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Skills</span></Nav.Link>
         <Nav.Link href="/#WorkExperience"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Work Experience</span></Nav.Link>
-        <Nav.Link href="/#Achievement"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Achievements</span></Nav.Link>
         <Nav.Link href="/#Projects"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Projects</span></Nav.Link>
-        <Nav.Link href="/#Courses"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Courses</span></Nav.Link>
         <Nav.Link href="/#Publication"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Publications</span></Nav.Link>
+        <Nav.Link href="/#Achievement"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Achievements</span></Nav.Link>
+        
+        <Nav.Link href="/#Courses"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Courses</span></Nav.Link>
+        
         </Nav>
        
         </Navbar.Collapse>
         </Navbar>
+        <hr></hr>
         <br />
         <h3  style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Centralized Collection and Real-Time Updation of COVID-19 Data Across India</h3><br />
         <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}><span style={{"textDecorationLine":"underline"}}>Introduction</span></h5><br/>
-        <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}>This project’s main aim was to create a centralized hub for data collection of COVID-19
+        <p style={{"font-family": "'Montserrat', 'sans-serif'"}}>This project’s main aim was to create a centralized hub for data collection of COVID-19
 patients across India. This eased the process of accessing and updating data in real-time.
 The number of “Active”, “Recovered”, “Deaths” and “Total” cases were displayed for each
 state of India in a tabular form. Moreover, the commonly occurring symptoms and prevention
 methods of the virus were also displayed. The use of AJAX and JQUERY for search queries
 made it possible to display the details of any patient in the database with the use of
 keywords. There was no need to refresh the page every time as the data was updated and
-inserted in real time. Helpline service numbers in case of emergency were also presented.</h5><br/>
+inserted in real time. Helpline service numbers in case of emergency were also presented.</p><br/>
 <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}><span style={{"textDecorationLine":"underline"}}>UML Case Diagrams:</span></h5><br/>
-<h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}>For Covid-19 Data Hub, there are 2 main types of users who carry out 3 different types of
+<p style={{"font-family": "'Montserrat', 'sans-serif'"}}>For Covid-19 Data Hub, there are 2 main types of users who carry out 3 different types of
 interactions:
 <br/>1. ADMIN: - Can add patient records into the database and can update records on the
 dashboard by noon daily. Also takes care of the monitoring of privacy and
 misinterpretation of data. Can also search and view patient records on the dashboard.
 <br/>2. RESEARCHER/VIEWER: - Can browse through the data hub and search for patient
 records. Can also view the dashboard for monthly, weekly, and daily reports. Has access
-to latest helpline services.</h5><br/>
+to latest helpline services.</p><br/>
 <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}>ACTORS DIAGRAM:</h5><br/>
 <img src={P11} className="center" style={{"width":"350px","height":"350px"}}></img><br/>
 <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}>USE CASE DIAGRAM:</h5><br/>

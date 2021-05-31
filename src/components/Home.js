@@ -22,52 +22,54 @@ const Home=()=>{
         <Navbar style={{"backgroundColor":"#B37BA4"}} expand="lg" sticky="top" >
         
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto" style={{ "margin":"0 auto"}}>
         <Nav.Link href="/"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Home</span></Nav.Link>
-        <Nav.Link href="#Education"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Education</span></Nav.Link>
+        <Nav.Link href="/#Education"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Education</span></Nav.Link>
         <Nav.Link href="/#Skills"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Skills</span></Nav.Link>
-        <Nav.Link href="#WorkExperience"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Work Experience</span></Nav.Link>
-        <Nav.Link href="/#Achievement"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Achievements</span></Nav.Link>
+        <Nav.Link href="/#WorkExperience"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Work Experience</span></Nav.Link>
         <Nav.Link href="/#Projects"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Projects</span></Nav.Link>
-        <Nav.Link href="/#Courses"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Courses</span></Nav.Link>
         <Nav.Link href="/#Publication"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Publications</span></Nav.Link>
+        <Nav.Link href="/#Achievement"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Achievements</span></Nav.Link>
+        
+        <Nav.Link href="/#Courses"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Courses</span></Nav.Link>
+        
         </Nav>
        
         </Navbar.Collapse>
         </Navbar>
+        <hr></hr>
         <section id="Education">
         <br />
         <h3 style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Education</h3>
         <br />
         <div class="row">
         
-        <div class="col-md-6" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={SJSU} style={{"width":"275px","height":"150px"}}/>
+        <div class="col-md-6">
+        <Card style={{ width: '18rem', "margin":"0 auto" }}>
+        <Card.Img variant="top" src={SJSU} style={{"width":"225px","height":"100px"}} className="center"/>
         <Card.Body>
             <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>San Jose State University</span></Card.Title>
             <Card.Text>
-            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>Masters</span>
+            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}><br/>Masters in Computer Science<br/><br/></span>
             </Card.Text>
             {/* <Button variant="primary"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button> */}
         </Card.Body>
         </Card>
-        </div></div>
-        <div class="col-md-6" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={SVNIT} style={{"width":"150px","height":"150px"}} className="center"/>
-        <Card.Body>
-            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>SVNIT</span></Card.Title>
-            <Card.Text>
-            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>Bachelors</span>
-            </Card.Text>
-            {/* <Button variant="primary"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button> */}
-        </Card.Body>
-        </Card>
-        </div></div>
         </div>
+        <div class="col-md-6" >
+        
+        <Card style={{ width: '18rem', "margin":"0 auto" }}>
+        <Card.Img variant="top" src={SVNIT} style={{"width":"100px","height":"100px"}} className="center"/>
+        <Card.Body>
+            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>National Institute of Technology, Surat</span></Card.Title>
+            <Card.Text>
+            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>Bachelors Of Technology in Computer Engineering</span>
+            </Card.Text>
+            {/* <Button variant="primary"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button> */}
+        </Card.Body>
+        </Card>
+        </div></div>
+        
         
         </section>
         <hr></hr>
@@ -76,11 +78,11 @@ const Home=()=>{
         <h3 style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Skills</h3>
         <br />
         <div className="center">
-        <h4><span style={{"font-family": "'Montserrat', 'sans-serif'", "textDecorationLine":"underline"}}>Languages  </span></h4><p style={{"font-family": "'Montserrat', 'sans-serif'", "display":"inline"}}>   C , C++ , PHP , Phython</p><br />
-        <h4><span style={{"font-family": "'Montserrat', 'sans-serif'", "textDecorationLine":"underline"}}>FrontEnd  </span></h4><p style={{"font-family": "'Montserrat', 'sans-serif'", "display":"inline"}}>   HTML , CSS , Bootstrap , Angular</p><br />
-        <h4><span style={{"font-family": "'Montserrat', 'sans-serif'", "textDecorationLine":"underline"}}>Database  </span></h4><p style={{"font-family": "'Montserrat', 'sans-serif'", "display":"inline"}}>   SQL</p><br />
-        <h4><span style={{"font-family": "'Montserrat', 'sans-serif'", "textDecorationLine":"underline"}}>Version Control  </span></h4><p style={{"font-family": "'Montserrat', 'sans-serif'", "display":"inline"}}>   Git</p><br />
-        <h4><span style={{"font-family": "'Montserrat', 'sans-serif'", "textDecorationLine":"underline"}}>Others  </span></h4><p style={{"font-family": "'Montserrat', 'sans-serif'", "display":"inline"}}>   Ajax , Linux , Flask , VB testing , QC testing AWS Web Services</p><br />
+        <h6><span style={{"font-family": "'Montserrat', 'sans-serif'", "textDecorationLine":"underline"}}>Languages  </span></h6><p style={{"font-family": "'Montserrat', 'sans-serif'", "display":"inline"}}>   C , C++ , PHP , Phython</p><br />
+        <h6><span style={{"font-family": "'Montserrat', 'sans-serif'", "textDecorationLine":"underline"}}>FrontEnd  </span></h6><p style={{"font-family": "'Montserrat', 'sans-serif'", "display":"inline"}}>   HTML , CSS , Bootstrap , Angular</p><br />
+        <h6><span style={{"font-family": "'Montserrat', 'sans-serif'", "textDecorationLine":"underline"}}>Database  </span></h6><p style={{"font-family": "'Montserrat', 'sans-serif'", "display":"inline"}}>   SQL</p><br />
+        <h6><span style={{"font-family": "'Montserrat', 'sans-serif'", "textDecorationLine":"underline"}}>Version Control  </span></h6><p style={{"font-family": "'Montserrat', 'sans-serif'", "display":"inline"}}>   Git</p><br />
+        <h6><span style={{"font-family": "'Montserrat', 'sans-serif'", "textDecorationLine":"underline"}}>Others  </span></h6><p style={{"font-family": "'Montserrat', 'sans-serif'", "display":"inline"}}>   Ajax , Linux , Flask , VB testing , QC testing AWS Web Services</p><br />
         </div>
         </section>
         <hr></hr>
@@ -89,10 +91,10 @@ const Home=()=>{
         <h3 style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Work Experience</h3>
         <br />
         <div class="row">
-        <div class="col-md-4" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={GEP} style={{"width":"250px","height":"150px"}}/>
+        <div class="col-md-4" >
+        
+        <Card style={{ width: '18rem', "margin":"0 auto" }}>
+        <Card.Img variant="top" src={GEP} style={{"width":"200px","height":"100px"}} className="center"/>
         <Card.Body>
             <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>GEP Worldwide, India</span></Card.Title>
             <Card.Text>
@@ -101,11 +103,11 @@ const Home=()=>{
             <Button variant="primary" href="/GEP"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
         </Card.Body>
         </Card>
-        </div></div>
-        <div class="col-md-4" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={VC} style={{"width":"250px","height":"150px"}}/>
+        </div>
+        <div class="col-md-4" >
+        
+        <Card style={{ width: '18rem', "margin":"0 auto" }}>
+        <Card.Img variant="top" src={VC} style={{"width":"200px","height":"100px"}} className="center"/>
         <Card.Body>
             <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Virtusa Corporation</span></Card.Title>
             <Card.Text>
@@ -114,11 +116,11 @@ const Home=()=>{
             <Button variant="primary" href="/VC"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
         </Card.Body>
         </Card>
-        </div></div>
-        <div class="col-md-4" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={SiliconValley} style={{"width":"150px","height":"150px"}}/>
+        </div>
+        <div class="col-md-4">
+        
+        <Card style={{ width: '18rem', "margin":"0 auto" }}>
+        <Card.Img variant="top" src={SiliconValley} style={{"width":"100px","height":"100px"}} className="center"/>
         <Card.Body>
             <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>42 Silicon Valley</span></Card.Title>
             <Card.Text>
@@ -127,8 +129,110 @@ const Home=()=>{
             <Button variant="primary" href="/SV"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
         </Card.Body>
         </Card>
+        </div>
+        </div>
+        </section>
+        <hr></hr>
+        <section id="Projects">
+        <br />
+        <h3 style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Projects</h3>
+        <br />
+        <div class="row">
+        <div class="col-md-3" >
+        
+        <Card style={{ width: '12rem', "margin":"0 auto" }}>
+        <Card.Body>
+            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Centralized Collection and Real-Time Updation of COVID-19 Data Across India </span></Card.Title>
+            <Card.Text>
+            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}></span>
+            </Card.Text>
+            <Button variant="primary" href="/Project1"><span style={{"font-family": "'Pattaya', 'sans-serif'"}} >More Information</span></Button>
+        </Card.Body>
+        </Card>
+        </div>
+        <div class="col-md-3" >
+        
+        <Card style={{ width: '12rem', "margin":"0 auto" }}>
+        <Card.Body>
+            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Library Management System</span></Card.Title>
+            <Card.Text>
+            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}><br /><br /><br /></span>
+            </Card.Text>
+            <Button variant="primary" href="/Project2"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
+        </Card.Body>
+        </Card>
+        </div>
+        <div class="col-md-3" >
+        
+        <Card style={{ width: '12rem', "margin":"0 auto" }}>
+        
+        <Card.Body>
+            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Online Auction System</span></Card.Title>
+            <Card.Text>
+            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}><br /><br /><br /><br /></span>
+            </Card.Text>
+            <Button variant="primary" href="/Project3"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
+        </Card.Body>
+        </Card>
+        </div>
+        <div class="col-md-3" >
+        
+        <Card style={{ width: '12rem', "margin":"0 auto" }}>
+        
+        <Card.Body>
+            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Instagram Search Engine Client</span></Card.Title>
+            <Card.Text>
+            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}><br /><br /><br /><br /></span>
+            </Card.Text>
+            <Button variant="primary" href="/Project4"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
+        </Card.Body>
+        </Card>
+        </div>
+        </div>
+        </section>
+        <hr></hr>
+        <section id="Publication">
+        <br />
+        <h3 style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Publications</h3>
+        <br />
+        <div class="row">
+        
+        <div class="col-md-6" >
+        <div >
+        <Card style={{ width: '18rem', "margin":"0 auto" }}>
+        
+        <Card.Body>
+            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>PPSE: Privacy Preservation and Security Efficient AKA Protocol for 5G Communication Networks</span></Card.Title>
+            <Card.Text>
+            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>2020 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)</span>
+            </Card.Text>
+            <div style={{"display":"inline-block"}}>
+            <Button variant="primary" style={{"marginInline":"35px"}} href={Publication1} download><span style={{"font-family": "'Pattaya', 'sans-serif'"}} >Download</span></Button>
+            
+            <Button variant="primary" href="https://ieeexplore.ieee.org/abstract/document/9342780"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Link</span></Button>
+            </div>
+        </Card.Body>
+        </Card>
+        </div></div>
+        <div class="col-md-6" >
+        <div >
+        <Card style={{ width: '18rem' , "margin":"0 auto"}}>
+        
+        <Card.Body>
+            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Detection of Bot Accounts on Social Media Considering Its Imbalanced Nature (Chapter 9)</span></Card.Title>
+            <Card.Text>
+            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>IGI Global, 2021 <br /><br /><br /><br /><br /></span>
+            </Card.Text>
+            <div style={{"display":"inline-block"}}>
+            <Button variant="primary" style={{"marginInline":"35px"}} href={Publication2} download><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Download</span></Button>
+            
+            <Button variant="primary" href="https://www.igi-global.com/submission/book-project-chapters/?projectid=03dcf765-2e75-4bf4-9089-305370caa331"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Link</span></Button>
+            </div>
+        </Card.Body>
+        </Card>
         </div></div>
         </div>
+        <br />
         </section>
         <hr></hr>
         <section id="Achievement">
@@ -198,64 +302,6 @@ const Home=()=>{
     
         </section>
         <hr></hr>
-        <section id="Projects">
-        <br />
-        <h3 style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Projects</h3>
-        <br />
-        <div class="row">
-        <div class="col-md-3" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '12rem' }}>
-        <Card.Body>
-            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Centralized Collection and Real-Time Updation of COVID-19 Data Across India </span></Card.Title>
-            <Card.Text>
-            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}></span>
-            </Card.Text>
-            <Button variant="primary" href="/Project1"><span style={{"font-family": "'Pattaya', 'sans-serif'"}} >More Information</span></Button>
-        </Card.Body>
-        </Card>
-        </div></div>
-        <div class="col-md-3" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '12rem' }}>
-        <Card.Body>
-            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Library Management System</span></Card.Title>
-            <Card.Text>
-            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}><br /><br /><br /></span>
-            </Card.Text>
-            <Button variant="primary" href="/Project2"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
-        </Card.Body>
-        </Card>
-        </div></div>
-        <div class="col-md-3" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '12rem' }}>
-        
-        <Card.Body>
-            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Online Auction System</span></Card.Title>
-            <Card.Text>
-            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}><br /><br /><br /><br /></span>
-            </Card.Text>
-            <Button variant="primary" href="/Project3"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
-        </Card.Body>
-        </Card>
-        </div></div>
-        <div class="col-md-3" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '12rem' }}>
-        
-        <Card.Body>
-            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Instagram Search Engine Client</span></Card.Title>
-            <Card.Text>
-            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}><br /><br /><br /><br /></span>
-            </Card.Text>
-            <Button variant="primary" href="/Project4"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
-        </Card.Body>
-        </Card>
-        </div></div>
-        </div>
-        </section>
-        <hr></hr>
         <section id="Courses">
         <br />
         <h3 style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Courses</h3>
@@ -300,50 +346,6 @@ const Home=()=>{
       </TimelineItem>
       
     </Timeline>
-        </section>
-        <hr></hr>
-        <section id="Publication">
-        <br />
-        <h3 style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Publication</h3>
-        <br />
-        <div class="row">
-        
-        <div class="col-md-6" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '18rem' }}>
-        
-        <Card.Body>
-            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>PPSE: Privacy Preservation and Security Efficient AKA Protocol for 5G Communication Networks</span></Card.Title>
-            <Card.Text>
-            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>2020 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)</span>
-            </Card.Text>
-            <div style={{"display":"inline-block"}}>
-            <Button variant="primary" style={{"marginInline":"35px"}} href={Publication1} download><span style={{"font-family": "'Pattaya', 'sans-serif'"}} >Download</span></Button>
-            
-            <Button variant="primary" href="https://ieeexplore.ieee.org/abstract/document/9342780"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Link</span></Button>
-            </div>
-        </Card.Body>
-        </Card>
-        </div></div>
-        <div class="col-md-6" style={{"padding":"0px"}}>
-        <div class="center">
-        <Card style={{ width: '18rem' }}>
-        
-        <Card.Body>
-            <Card.Title><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Detection of Bot Accounts on Social Media Considering Its Imbalanced Nature (Chapter 9)</span></Card.Title>
-            <Card.Text>
-            <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>IGI Global, 2021 <br /><br /><br /><br /><br /></span>
-            </Card.Text>
-            <div style={{"display":"inline-block"}}>
-            <Button variant="primary" style={{"marginInline":"35px"}} href={Publication2} download><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Download</span></Button>
-            
-            <Button variant="primary" href="https://www.igi-global.com/submission/book-project-chapters/?projectid=03dcf765-2e75-4bf4-9089-305370caa331"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Link</span></Button>
-            </div>
-        </Card.Body>
-        </Card>
-        </div></div>
-        </div>
-        <br />
         </section>
         <hr></hr>
         <Footer />

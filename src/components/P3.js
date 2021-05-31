@@ -10,27 +10,30 @@ const P3=()=>{
         <Navbar style={{"backgroundColor":"#B37BA4"}} expand="lg" sticky="top" >
         
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto" style={{"margin":"0 auto"}}>
         <Nav.Link href="/"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Home</span></Nav.Link>
         <Nav.Link href="/#Education"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Education</span></Nav.Link>
         <Nav.Link href="/#Skills"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Skills</span></Nav.Link>
         <Nav.Link href="/#WorkExperience"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Work Experience</span></Nav.Link>
-        <Nav.Link href="/#Achievement"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Achievements</span></Nav.Link>
         <Nav.Link href="/#Projects"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Projects</span></Nav.Link>
-        <Nav.Link href="/#Courses"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Courses</span></Nav.Link>
         <Nav.Link href="/#Publication"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Publications</span></Nav.Link>
+        <Nav.Link href="/#Achievement"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Achievements</span></Nav.Link>
+        
+        <Nav.Link href="/#Courses"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Courses</span></Nav.Link>
+        
         </Nav>
        
         </Navbar.Collapse>
         </Navbar>
+        <hr></hr>
         <br />
         <h3  style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Online Auction System </h3><br />
         <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}><span style={{"textDecorationLine":"underline"}}>Introduction</span></h5><br/>
-        <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}>This online auction web site is aimed at taking auction to the fingertips of aspiring bidders
+        <p style={{"font-family": "'Montserrat', 'sans-serif'"}}>This online auction web site is aimed at taking auction to the fingertips of aspiring bidders
 there by opening the doors of the “Open Auction House” to a wider cross section of Art
 Lovers and Antique Collectors. This site also acts as an open forum where buyers and
 sellers can come together and exchange their products. The site makes sure that the sellers
-get a fair deal and buyers get a genuine product.</h5><br/>
+get a fair deal and buyers get a genuine product.</p><br/>
         <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}><span style={{"textDecorationLine":"underline"}}>System Modules:</span></h5><br/>
         <ul>
             <li style={{"font-family": "'Montserrat', 'sans-serif'"}}>Home Page - The site opens doors to aspiring web users through the Home page. The
@@ -57,7 +60,7 @@ product information like closing date. </li>
         </ul>
         <br/>
         <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}><span style={{"textDecorationLine":"underline"}}>Technology used: </span></h5><br/>
-        <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}>PHP, JQUERY, HTML, CSS/BOOTSTRAP, AJAX, MYSQL.</h5>
+        <p style={{"font-family": "'Montserrat', 'sans-serif'"}}>PHP, JQUERY, HTML, CSS/BOOTSTRAP, AJAX, MYSQL.</p>
         <br />
         <Footer/>
     </div>)

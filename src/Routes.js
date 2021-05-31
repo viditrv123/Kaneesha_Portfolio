@@ -8,6 +8,7 @@ import P3 from './components/P3';
 import P4 from './components/P4';
 import SV from './components/SV';
 import VC from './components/VC';
+import VCP from './components/VCP';
 
 const Routes=()=>{
     return(<BrowserRouter>
@@ -20,6 +21,7 @@ const Routes=()=>{
             <Route path="/Project2" exact component={P2} />
             <Route path="/Project3" exact component={P3} />
             <Route path="/Project4" exact component={P4} />
+            <Route path="/VC/Project" exact component={VCP} />
         </Switch>
     </BrowserRouter>)
 }

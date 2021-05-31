@@ -10,25 +10,28 @@ const P2=()=>{
         <Navbar style={{"backgroundColor":"#B37BA4"}} expand="lg" sticky="top" >
         
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto" style={{"margin":"0 auto"}}>
         <Nav.Link href="/"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Home</span></Nav.Link>
         <Nav.Link href="/#Education"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Education</span></Nav.Link>
         <Nav.Link href="/#Skills"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Skills</span></Nav.Link>
         <Nav.Link href="/#WorkExperience"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Work Experience</span></Nav.Link>
-        <Nav.Link href="/#Achievement"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Achievements</span></Nav.Link>
         <Nav.Link href="/#Projects"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Projects</span></Nav.Link>
-        <Nav.Link href="/#Courses"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Courses</span></Nav.Link>
         <Nav.Link href="/#Publication"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Publications</span></Nav.Link>
+        <Nav.Link href="/#Achievement"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Achievements</span></Nav.Link>
+        
+        <Nav.Link href="/#Courses"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Courses</span></Nav.Link>
+        
         </Nav>
        
         </Navbar.Collapse>
         </Navbar>
+        <hr></hr>
         <br />
         <h3  style={{"font-family": "'Pattaya', 'sans-serif'","textAlign":"center"}}>Library Management System </h3><br />
         <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}><span style={{"textDecorationLine":"underline"}}>Introduction</span></h5><br/>
-        <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}>The project was made as a part of the DBMS course project. <br/>The aim is to build a computerized system to maintain all the daily work of library. It has facilities of librarian login and member login through which the librarian can monitor the whole system. <br />The librarian authorizes registration for new members and grants issue permissions to the existing members. New members should have a minimum balance of 500 while registering. The member can request a book from the various books available in the library and further can issue the book once the librarian approves of it. Each issued book has a due date assigned and the books must be returned before the due date. An ER model based on the above implementation was constructed for gaining deeper insight. </h5><br/>
+        <p style={{"font-family": "'Montserrat', 'sans-serif'"}}>The project was made as a part of the DBMS course project. The aim is to build a computerized system to maintain all the daily work of library. It has facilities of librarian login and member login through which the librarian can monitor the whole system. The librarian authorizes registration for new members and grants issue permissions to the existing members. New members should have a minimum balance of 500 while registering. The member can request a book from the various books available in the library and further can issue the book once the librarian approves of it. Each issued book has a due date assigned and the books must be returned before the due date. An ER model based on the above implementation was constructed for gaining deeper insight. </p><br/>
         <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}><span style={{"textDecorationLine":"underline"}}>Project aims and objectives:</span></h5><br/>
-        <h5 style={{"font-family": "'Montserrat', 'sans-serif'"}}>The project aims and objectives that will be achieved after completion of this project are discussed in this subchapter. The aims and objectives are as follows: </h5><br/>
+        <p style={{"font-family": "'Montserrat', 'sans-serif'"}}>The project aims and objectives that will be achieved after completion of this project are discussed in this subchapter. The aims and objectives are as follows: </p><br/>
         <ul>
             <li style={{"font-family": "'Montserrat', 'sans-serif'"}}>Online book issues </li>
             <li style={{"font-family": "'Montserrat', 'sans-serif'"}}>Request column for librarian for providing new books </li>
