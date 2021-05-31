@@ -23,15 +23,15 @@ const Home=()=>{
         
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ "margin":"0 auto"}}>
-        <Nav.Link href="/"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Home</span></Nav.Link>
-        <Nav.Link href="/#Education"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Education</span></Nav.Link>
-        <Nav.Link href="/#Skills"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Skills</span></Nav.Link>
-        <Nav.Link href="/#WorkExperience"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Work Experience</span></Nav.Link>
-        <Nav.Link href="/#Projects"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Projects</span></Nav.Link>
-        <Nav.Link href="/#Publication"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Publications</span></Nav.Link>
-        <Nav.Link href="/#Achievement"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Achievements</span></Nav.Link>
+        <Nav.Link href="/Kaneesha_Portfolio/"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Home</span></Nav.Link>
+        <Nav.Link href="/Kaneesha_Portfolio/#Education"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Education</span></Nav.Link>
+        <Nav.Link href="/Kaneesha_Portfolio/#Skills"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Skills</span></Nav.Link>
+        <Nav.Link href="/Kaneesha_Portfolio/#WorkExperience"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Work Experience</span></Nav.Link>
+        <Nav.Link href="/Kaneesha_Portfolio/#Projects"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Projects</span></Nav.Link>
+        <Nav.Link href="/Kaneesha_Portfolio/#Publication"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Publications</span></Nav.Link>
+        <Nav.Link href="/Kaneesha_Portfolio/#Achievement"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Achievements</span></Nav.Link>
         
-        <Nav.Link href="/#Courses"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Courses</span></Nav.Link>
+        <Nav.Link href="/Kaneesha_Portfolio/#Courses"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>Courses</span></Nav.Link>
         
         </Nav>
        
@@ -100,7 +100,7 @@ const Home=()=>{
             <Card.Text>
             <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>Software Engineer Intern</span>
             </Card.Text>
-            <Button variant="primary" href="/GEP"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
+            <Button variant="primary" href="/Kaneesha_Portfolio/GEP"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
         </Card.Body>
         </Card>
         </div>
@@ -113,7 +113,7 @@ const Home=()=>{
             <Card.Text>
             <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>Volunteer - Trainee</span>
             </Card.Text>
-            <Button variant="primary" href="/VC"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
+            <Button variant="primary" href="/Kaneesha_Portfolio/VC"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
         </Card.Body>
         </Card>
         </div>
@@ -126,7 +126,7 @@ const Home=()=>{
             <Card.Text>
             <span style={{"font-family": "'Montserrat', 'sans-serif'"}}>Student Volunteer</span>
             </Card.Text>
-            <Button variant="primary" href="/SV"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
+            <Button variant="primary" href="/Kaneesha_Portfolio/SV"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
         </Card.Body>
         </Card>
         </div>
@@ -146,7 +146,7 @@ const Home=()=>{
             <Card.Text>
             <span style={{"font-family": "'Montserrat', 'sans-serif'"}}></span>
             </Card.Text>
-            <Button variant="primary" href="/Project1"><span style={{"font-family": "'Pattaya', 'sans-serif'"}} >More Information</span></Button>
+            <Button variant="primary" href="/Kaneesha_Portfolio/Project1"><span style={{"font-family": "'Pattaya', 'sans-serif'"}} >More Information</span></Button>
         </Card.Body>
         </Card>
         </div>
@@ -158,7 +158,7 @@ const Home=()=>{
             <Card.Text>
             <span style={{"font-family": "'Montserrat', 'sans-serif'"}}><br /><br /><br /></span>
             </Card.Text>
-            <Button variant="primary" href="/Project2"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
+            <Button variant="primary" href="/Kaneesha_Portfolio/Project2"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
         </Card.Body>
         </Card>
         </div>
@@ -171,7 +171,7 @@ const Home=()=>{
             <Card.Text>
             <span style={{"font-family": "'Montserrat', 'sans-serif'"}}><br /><br /><br /><br /></span>
             </Card.Text>
-            <Button variant="primary" href="/Project3"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
+            <Button variant="primary" href="/Kaneesha_Portfolio/Project3"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
         </Card.Body>
         </Card>
         </div>
@@ -184,7 +184,7 @@ const Home=()=>{
             <Card.Text>
             <span style={{"font-family": "'Montserrat', 'sans-serif'"}}><br /><br /><br /><br /></span>
             </Card.Text>
-            <Button variant="primary" href="/Project4"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
+            <Button variant="primary" href="/Kaneesha_Portfolio/Project4"><span style={{"font-family": "'Pattaya', 'sans-serif'"}}>More Information</span></Button>
         </Card.Body>
         </Card>
         </div>

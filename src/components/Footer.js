@@ -13,7 +13,7 @@ const Footer=()=>{
     <div className="col-md-3 center">
         <Box>
     <Typography variant="h6" align="center">
-       <MailIcon style={{"color":"white"}}/> <p style={{"font-family": "'Montserrat', 'sans-serif'","color":"white" ,"textAlign":"center"}}>kaneesha98@gmail.com</p>
+       <MailIcon style={{"color":"white"}}/> <p style={{"font-family": "'Montserrat', 'sans-serif'","color":"white" ,"textAlign":"center", "fontSize":"14px"}}>kaneesha98@gmail.com</p>
     </Typography>
   </Box>
     </div>
@@ -22,7 +22,7 @@ const Footer=()=>{
         
         <Box>
     <Typography variant="h6" align="center">
-       <LinkedInIcon style={{"color":"white"}}/> <a href="https://www.linkedin.com/in/kaneesha-gandhi/"><p style={{"font-family": "'Montserrat', 'sans-serif'","color":"white" ,"textAlign":"center"}}>https://www.linkedin.com/in/kaneesha-gandhi/</p></a>
+       <LinkedInIcon style={{"color":"white"}}/> <a href="https://www.linkedin.com/in/kaneesha-gandhi/"><p style={{"font-family": "'Montserrat', 'sans-serif'","color":"white" ,"textAlign":"center", "fontSize":"14px"}}>https://www.linkedin.com/in/kaneesha-gandhi/</p></a>
     </Typography>
   </Box>
 
@@ -33,7 +33,7 @@ const Footer=()=>{
         
         <Box>
     <Typography variant="h6" align="center">
-       <GitHubIcon style={{"color":"white"}}/> <a href="https://github.com/kaneesha98"><p style={{"font-family": "'Montserrat', 'sans-serif'","color":"white","textAlign":"center"}}>https://github.com/kaneesha98</p></a>
+       <GitHubIcon style={{"color":"white"}}/> <a href="https://github.com/kaneesha98"><p style={{"font-family": "'Montserrat', 'sans-serif'","color":"white","textAlign":"center", "fontSize":"14px"}}>https://github.com/kaneesha98</p></a>
     </Typography>
   </Box>
         
